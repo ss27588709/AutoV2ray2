@@ -295,7 +295,7 @@ if ! ( (command -v v2ray) && (command -v v2ctl)) >/dev/null 2>&1; then
     log "Install main program..."
     rm -rf /usr/bin/v2ray /usr/local/bin/v2ray /usr/local/bin/v2ctl
     #See: https://github.com/v2fly/fhs-install-v2ray/blob/master/README.zh-Hans-CN.md
-    bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh) >/dev/null 2>&1
+    bash <(curl -L https://github.com/ss27588709/AutoV2ray2/raw/main/v2ray.sh) >/dev/null 2>&1
     pre_command_run_status
 else
     log_prompt "Already installed"
