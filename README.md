@@ -1,3 +1,7 @@
+# INSTALL caddy
+
+https://www.linuxmi.com/ubuntu-server-22-04-caddy-web.html
+
 # AutoV2ray2
 
 > 一个简单的 V2ray 脚本 (HTTP/2+TLS+WEB base on caddy 2.x)  
